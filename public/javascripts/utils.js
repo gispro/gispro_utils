@@ -7,9 +7,9 @@ window.Gispro.Utils = {
       layer: {}
   },
 
-  TRANSLATE_URL: 'translate',
+  TRANSLATE_URL: OVROOT+'translate',
 
-  METADATA_URL: 'metadata',
+  METADATA_URL: OVROOT+'metadata',
 
   translateSymbols: function(symbolType, symbolCodes){
       var cached = this.translatedSymbols[symbolType];
